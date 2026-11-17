@@ -977,7 +977,7 @@ document.addEventListener("keydown", function(e){
 /* =============================================================
    RESULT
    ============================================================= */
-var MARKER = "Seahorse Whisperer";
+var MARKER = "Same Scan We Do Every Night";
 function showResult(){
   var planes=TASKS.every(planOK), posOK=POS[S.pos].cls==="ok", all=planes && posOK;
   setPhase("result");

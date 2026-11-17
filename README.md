@@ -5,7 +5,7 @@ the brain simulator). Every diagnostic image is reformatted from **one real 3 T 
 proven right hippocampal sclerosis** (public-domain research data — see `CREDITS.md`) and is shown with its true
 geometry. **It's a demonstration only.**
 
-Marker: **Seahorse Whisperer** — sagittal T1 parallel to the falx with both hippocampi in the stack; axial parallel
+Marker: **Same Scan We Do Every Night** — sagittal T1 parallel to the falx with both hippocampi in the stack; axial parallel
 to the long axis of the hippocampus and coronal perpendicular to it, both whole brain and in thin slices; and the
 head straight, chin neutral, padded in the coil.
 

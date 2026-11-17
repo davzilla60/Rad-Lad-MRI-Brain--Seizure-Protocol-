@@ -26,7 +26,7 @@ tag = '<script src="assets/calib.js"></script>'
 assert tag in html, "calib.js tag not found"
 html = html.replace(tag, "<script>" + open(os.path.join(ASSETS, "calib.js"), encoding="utf-8").read().strip() +
                     "\nwindow.SCG_ASSETS=" + json.dumps(d) + ";</script>")
-for js in ("room3d.js?v=5", "app.js?v=5"):
+for js in ("room3d.js?v=6", "app.js?v=6"):
     tag = '<script src="' + js + '"></script>'
     assert tag in html, js + " tag not found - bump the version here too"
     html = html.replace(tag, "<script>\n" + open(js.split("?")[0], encoding="utf-8").read() + "\n</script>")
